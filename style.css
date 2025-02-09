@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0:#0202a2;
+    --cor1:#0000ff;
+    --cor2:#f0f8ff;
+    --cor3:#ffff;
+    --cor4:#000;
+    --cor5: #8a2be2;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--cor1);
+    text-align: center;
+    width: 100%;
+}
+
+header{
+    background-color: var(--cor0);
+    padding: 20px;
+    color: var(--cor3);
+    text-align: left;
+    padding-left: 2px;
+}
+
+main{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+article{
+    background-color: var(--cor3);
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 10px 10px var(--cor4);
+}
+
+aside{
+    background-color: var(--cor2);
+    margin-left: -1%;
+    margin-right: -1%;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow:0px 5px 5px var(--cor4);
+}
+
+a{
+    color: var(--cor4);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--cor1);
+    text-decoration: underline;
+}
+
+footer{
+    background-color: var(--cor0);
+    color: var(--cor2);
+}
+
+footer > a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer > a:hover{
+    color: var(--cor5);
+    text-decoration: underline;
+}
